@@ -13,5 +13,8 @@ UCLASS()
 class ROGUELIKE_API ARoguelikeGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
+
+protected:
+	virtual void BeginPlay() override;
 	
 };

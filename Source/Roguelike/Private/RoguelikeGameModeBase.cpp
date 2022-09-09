@@ -3,3 +3,8 @@
 
 #include "RoguelikeGameModeBase.h"
 
+#include "Kismet/GameplayStatics.h"
+
+void ARoguelikeGameModeBase::BeginPlay()
+{
+}
